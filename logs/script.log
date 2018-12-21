@@ -437,3 +437,184 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: '用例_quant_login_out(登入登出)'
 2018-07-02 14:59:50,449 [HttpRunnerManager:78] [views:log_out] [INFO]- yinquanwang退出
 2018-07-02 14:59:52,333 [HttpRunnerManager:45] [views:login] [INFO]- yinquanwang 登录成功
+2018-12-03 16:59:15,275 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-12-03 16:59:46,961 [django.request:93] [base:get_response] [WARNING]- Not Found: /dashboard
+2018-12-03 17:01:50,483 [HttpRunnerManager:60] [views:login] [INFO]- admin 登录失败, 请检查用户名或者密码
+2018-12-03 17:01:57,993 [HttpRunnerManager:60] [views:login] [INFO]- admin 登录失败, 请检查用户名或者密码
+2018-12-03 17:02:37,371 [HttpRunnerManager:29] [operation:add_register_data] [DEBUG]- admin 已被其他用户注册
+2018-12-03 17:04:08,412 [HttpRunnerManager:55] [views:login] [INFO]- admin 登录成功
+2018-12-03 17:47:17,008 [HttpRunnerManager:60] [views:login] [INFO]- admin 登录失败, 请检查用户名或者密码
+2018-12-03 17:47:20,483 [HttpRunnerManager:60] [views:login] [INFO]- admin 登录失败, 请检查用户名或者密码
+2018-12-03 17:47:33,248 [HttpRunnerManager:55] [views:login] [INFO]- admin 登录成功
+2018-12-03 18:12:34,282 [HttpRunnerManager:60] [views:login] [INFO]- admin 登录失败, 请检查用户名或者密码
+2018-12-03 18:12:43,344 [HttpRunnerManager:55] [views:login] [INFO]- admin 登录成功
+2018-12-03 18:13:39,134 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-12-03 18:14:47,397 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-12-03 18:14:50,545 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-12-06 18:50:19,193 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2018-12-06 18:51:06,232 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2018-12-06 18:51:23,257 [django.request:228] [log:log_response] [WARNING]- Not Found: /dashboard
+2018-12-06 18:54:05,006 [HttpRunnerManager:55] [views:login] [INFO]- admin 登录成功
+2018-12-13 10:28:05,144 [django.request:228] [log:log_response] [WARNING]- Not Found: /dashboard
+2018-12-13 10:28:59,844 [django.request:228] [log:log_response] [WARNING]- Not Found: /dashboard
+2018-12-13 10:32:05,770 [HttpRunnerManager:55] [views:login] [INFO]- admin 登录成功
+2018-12-13 10:42:16,065 [HttpRunnerManager:55] [views:login] [INFO]- admin 登录成功
+2018-12-13 10:42:20,654 [HttpRunnerManager:89] [views:log_out] [INFO]- admin退出
+2018-12-13 10:42:32,243 [HttpRunnerManager:60] [views:login] [INFO]- shadowmimosa 登录失败, 请检查用户名或者密码
+2018-12-13 10:42:45,358 [HttpRunnerManager:60] [views:login] [INFO]- shadowmimosa 登录失败, 请检查用户名或者密码
+2018-12-13 10:42:52,109 [HttpRunnerManager:55] [views:login] [INFO]- admin 登录成功
+2018-12-18 23:02:48,163 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2018-12-18 23:03:21,459 [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/1/
+Traceback (most recent call last):
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\HttpRunnerManager\activator.py", line 12, in process
+    fun = getattr(view, fun)
+AttributeError: module 'ApiManager.views' has no attribute '1'
+2018-12-18 23:03:56,209 [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /apimanager/register/
+Traceback (most recent call last):
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\HttpRunnerManager\activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+ModuleNotFoundError: No module named 'apimanager'
+2018-12-18 23:05:13,433 [HttpRunnerManager:55] [views:login] [INFO]- admin 登录成功
+2018-12-20 00:44:32,756 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 00:44:47,018 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 00:44:49,650 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 00:44:50,986 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 00:44:51,833 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 00:45:01,764 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 00:45:05,796 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 10:07:29,014 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 10:07:45,491 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 10:07:52,719 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 11:10:44,935 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 11:10:46,449 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 14:45:19,324 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 14:45:22,285 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 14:45:24,902 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 14:45:25,965 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 14:45:26,717 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 14:45:30,399 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 14:45:34,078 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 22:04:11,805 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2018-12-20 22:04:25,539 [HttpRunnerManager:60] [views:login] [INFO]- joyrun 登录失败, 请检查用户名或者密码
+2018-12-20 22:04:51,093 [HttpRunnerManager:55] [views:login] [INFO]- admin 登录成功
+2018-12-20 22:53:34,173 [HttpRunnerManager:55] [views:login] [INFO]- admin 登录成功
+2018-12-20 22:53:51,876 [HttpRunnerManager:55] [views:login] [INFO]- admin 登录成功
+2018-12-21 10:15:17,141 [HttpRunnerManager:55] [views:login] [INFO]- admin 登录成功
+2018-12-21 10:25:58,257 [HttpRunnerManager:62] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': 'tumblr likes', 'responsible_name': 'admin', 'test_user': 'admin', 'dev_user': 'admin', 'publish_app': 'tumblr', 'simple_desc': "Retrieve tumblr's likes", 'other_desc': 'Down'}
+2018-12-21 10:26:27,576 [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\HttpRunnerManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\ApiManager\views.py", line 39, in wrapper
+    return func(request, *args, **kwargs)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\ApiManager\views.py", line 236, in run_test
+    runner.run(testcase_dir_path)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\httprunner\api.py", line 234, in run
+    raise exceptions.ParamsError("invalid testcase path or testcases.")
+httprunner.exceptions.ParamsError: invalid testcase path or testcases.
+2018-12-21 10:27:13,194 [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\HttpRunnerManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\ApiManager\views.py", line 39, in wrapper
+    return func(request, *args, **kwargs)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\ApiManager\views.py", line 236, in run_test
+    runner.run(testcase_dir_path)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\httprunner\api.py", line 234, in run
+    raise exceptions.ParamsError("invalid testcase path or testcases.")
+httprunner.exceptions.ParamsError: invalid testcase path or testcases.
+2018-12-21 10:28:52,726 [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\HttpRunnerManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\ApiManager\views.py", line 39, in wrapper
+    return func(request, *args, **kwargs)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\ApiManager\views.py", line 236, in run_test
+    runner.run(testcase_dir_path)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\httprunner\api.py", line 234, in run
+    raise exceptions.ParamsError("invalid testcase path or testcases.")
+httprunner.exceptions.ParamsError: invalid testcase path or testcases.
+2018-12-21 10:29:10,489 [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\HttpRunnerManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\ApiManager\views.py", line 39, in wrapper
+    return func(request, *args, **kwargs)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\ApiManager\views.py", line 236, in run_test
+    runner.run(testcase_dir_path)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\httprunner\api.py", line 234, in run
+    raise exceptions.ParamsError("invalid testcase path or testcases.")
+httprunner.exceptions.ParamsError: invalid testcase path or testcases.
+2018-12-21 10:29:17,536 [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\HttpRunnerManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\ApiManager\views.py", line 39, in wrapper
+    return func(request, *args, **kwargs)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\ApiManager\views.py", line 236, in run_test
+    runner.run(testcase_dir_path)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\httprunner\api.py", line 234, in run
+    raise exceptions.ParamsError("invalid testcase path or testcases.")
+httprunner.exceptions.ParamsError: invalid testcase path or testcases.
+2018-12-21 10:29:25,654 [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/run_batch_test/
+Traceback (most recent call last):
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\HttpRunnerManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\ApiManager\views.py", line 39, in wrapper
+    return func(request, *args, **kwargs)
+  File "C:\Users\ShadowMimosa\Documents\GitRepository\HttpRunnerManager\ApiManager\views.py", line 277, in run_batch_test
+    runner.run(testcase_dir_path)
+  File "C:\Users\ShadowMimosa\AppData\Local\Programs\Python\Python37\lib\site-packages\httprunner\api.py", line 234, in run
+    raise exceptions.ParamsError("invalid testcase path or testcases.")
+httprunner.exceptions.ParamsError: invalid testcase path or testcases.
+2018-12-21 10:30:41,161 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': 'likes', 'test_user': 'admin', 'simple_desc': "Tumblr's likes", 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (2)>}
+2018-12-21 10:34:23,095 [HttpRunnerManager:55] [views:login] [INFO]- admin 登录成功
+2018-12-21 10:37:14,404 [HttpRunnerManager:154] [operation:add_case_data] [INFO]- tumblr's likes用例添加成功: {'test': {'request': {'url': 'https://api.tumblr.com/v2/blog/luckoooo/likes', 'method': 'GET', 'params': {'api_key': 'o25lc4XecQpXpoEIhoUu8AD2MMmQu3xXJLm9J6n2z6XH3wqwUK'}}, 'name': "tumblr's likes"}}
